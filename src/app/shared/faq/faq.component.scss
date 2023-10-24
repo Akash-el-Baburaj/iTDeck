@@ -1,0 +1,24 @@
+.faq-question-q-box {
+    height: 30px;
+    width: 30px;
+    color: #007bff; 
+    background-color: rgba(0, 123, 255, 0.25); 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border-radius: 50%;
+    float: left;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+.faq-question {
+    margin-top: 0;
+    margin-left: 50px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #333; 
+}
+
+.faq-answer {
+    margin-left: 50px;
+}

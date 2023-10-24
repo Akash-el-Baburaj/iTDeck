@@ -1,0 +1,33 @@
+/* Add this CSS to your global styles or a component's stylesheet */
+.back-to-top-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    // background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+    transition: background-color 0.3s ease;
+  }
+
+  .show {
+    animation: fadeIn 0.5s ease forwards;
+}
+  
+  .back-to-top-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }

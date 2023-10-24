@@ -1,0 +1,23 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~@mdi/font/css/materialdesignicons.min.css';
+
+.gradient {
+    background: linear-gradient(45deg, #2692DA,#113470);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    // font-family: sans-serif;
+
+}
+
+.btn-gradient {
+    background: linear-gradient(45deg, #2692DA,#113470) !important;
+    -webkit-background-clip: text;
+}
+
+.font-darkgrey{
+    color: darkgray !important;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
