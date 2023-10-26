@@ -12,7 +12,7 @@ const SERVICES: Services[] = [
     },
     {
         icon: 'uil uil-vector-square',
-        title: 'Technology Tech Insights',
+        title: 'Technology Insights',
         description: `Stay ahead with our expert tech recommendations. We identify the best-fit tools and platforms, ensuring your business is powered by the latest innovations.`,
     },
     {
