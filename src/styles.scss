@@ -2,7 +2,7 @@
 @import '~@mdi/font/css/materialdesignicons.min.css';
 
 .gradient {
-    background: linear-gradient(45deg, #2692DA,#113470);
+    background: linear-gradient(45deg, #1f4483,#113470);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     // font-family: sans-serif;
@@ -10,12 +10,12 @@
 }
 
 .btn-gradient {
-    background: linear-gradient(45deg, #2692DA,#113470) !important;
+    background: linear-gradient(45deg,#1f4483,#113470) !important;
     -webkit-background-clip: text;
 }
 
 .font-darkgrey{
-    color: darkgray !important;
+    color: rgb(70, 68, 68) !important;
 }
 
 html {
