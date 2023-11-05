@@ -9,7 +9,7 @@ interface Feature {
 const FEATURES: Feature[] = [
     {
         id: 1,
-        title: 'Innovative Idea Exploration',
+        title: 'Idea Exploration',
         description: 'Transform raw concepts into actionable opportunities through expert refinement. Align ideas with current market trends for global resonance and create strategic pathways for growth.',
         image: 'assets/images/innovative-idea.gif',
         features: [
