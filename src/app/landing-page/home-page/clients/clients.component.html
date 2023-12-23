@@ -1,0 +1,18 @@
+<section class="container py-lg-4 mb-4">
+  <div class="text-center">
+    <h1 class="mt-0"><i class="mdi mdi-emoticon-outline gradient"></i></h1>
+    <h2 class="h3 pb-4 gradient">Some Of Our Satisfied Clients</h2>
+  </div>
+    <div class="row mt-2">
+        <div class="col-md-3 col-sm-4 col-6 " *ngFor="let data of brandData; let i = index">
+          <div class="mb-3">
+            <a class="d-block shadow-sm rounded-3 card py-2 py-sm-4 mb-grid-gutter" href="javascript:void(0);"
+              [ngStyle]="{ 'background-color': (i === 0 || i === 5) ? '#1f4483' : '#fff' }">
+              <img class="d-block mx-auto image-ratio" src="{{data.image}}" style="width: 200px;"  alt="Brand">
+            </a>
+            <p class="text-center brand-name"
+              [ngStyle]="{ 'color': (i === 0 || i === 5) ? '#1f4483' : 'gray' }">{{ data.name }} | {{data.country}}</p>
+          </div>
+        </div>
+      </div>
+</section>

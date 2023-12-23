@@ -2,9 +2,9 @@
 @import '~@mdi/font/css/materialdesignicons.min.css';
 
 .gradient {
-    background: linear-gradient(45deg, #1f4483,#113470);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    background: linear-gradient(45deg, #1f4483,#113470) !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
     // font-family: sans-serif;
 
 }
@@ -21,3 +21,5 @@
 html {
     scroll-behavior: smooth;
   }
+/* Importing Bootstrap SCSS file. */
+@import 'bootstrap/scss/bootstrap';

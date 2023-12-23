@@ -16,6 +16,8 @@ import { HeroComponent } from './home-page/hero/hero.component';
 import { LayoutsComponent } from './home-page/layouts/layouts.component';
 import { ServicesComponent } from './home-page/services/services.component';
 import { PagesModule } from '../pages/pages.module';
+import { ClientsComponent } from './home-page/clients/clients.component';
+import { NgbCarouselModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -29,6 +31,7 @@ import { PagesModule } from '../pages/pages.module';
     LayoutsComponent,
     FeaturesComponent,
     FooterComponent,
+    ClientsComponent,
 
   ],
   imports: [
@@ -38,6 +41,7 @@ import { PagesModule } from '../pages/pages.module';
     LayoutsModule,
     SharedModule,
     PagesModule,
+    NgbCarouselModule,
   ],
 })
 export class LandingPageModule { }
