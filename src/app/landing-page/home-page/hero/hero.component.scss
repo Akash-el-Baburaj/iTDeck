@@ -1,18 +1,9 @@
-// .hero-section {
-//     // background-color: #727cf5;
-//     // background :linear-gradient(40deg, #4025a6,#542aa8, #993aa2);
-//     // // position: relative;
-//     // padding: 10px 0 120px 0;
-// }
-
 .hero-section {
     position: relative;
     padding: 20px 0 120px 0;
-    // background :linear-gradient(40deg, #4025a6,#542aa8, #993aa2);
     offset: initial;
     &:after {
         content: ' ';
-        // background-image: #ffffff;
         position: absolute;
         top: -400px;
         right: 0;

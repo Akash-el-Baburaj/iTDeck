@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 
-// data
 import { Feature, FEATURES } from './data';
 
 @Component({

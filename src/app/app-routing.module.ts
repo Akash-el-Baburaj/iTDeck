@@ -14,7 +14,6 @@ const routes: Routes = [
     { path: 'faqs', component: FaqComponent},
     { path: 'blog', component: BlogComponent},
     { path: 'about-us', component: AboutUsComponent},
-    // { path:'', component: LandingPageComponent},
 
   ] },
   
